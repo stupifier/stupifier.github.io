@@ -34,7 +34,7 @@ def index():
     # session["user_id"] means get the number that is stored from this current session
     user_id = session["user_id"]
 
-    return render_template("index.html")
+    return render_template("index2.html")
 
 
 @app.route("/login", methods=["GET","POST"])
